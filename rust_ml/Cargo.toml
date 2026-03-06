@@ -1,0 +1,13 @@
+[package]
+name = "rust_ml"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+linfa = "0.6.0"
+linfa-trees = "0.6.0"
+linfa-datasets = { version = "0.6.0", features = ["iris"] }
+csv = "1.1"
+ndarray = "0.15.6"
+rustlearn = "0.5.0"
+rand = "0.8"
